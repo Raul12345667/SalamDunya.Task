@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="az">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salam Dünya</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>🌟 <span>Salam, Dünya!</span>🌍</h1>
+        <p>Bu səhifəni özün düzəldə bilərsən! HTML, CSS və JavaScript-in sehrini kəşf et.</p>
+
+    </header>
+    <main>
+        <section id="card-1" class="box">
+            <h2>1️⃣ <span>Öz Adını Sayta Yaz!</span></h2>
+            <p>Aşağıdakı xüsuusi xanaya adını yaz və düyməyə klikl ə:</p>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Məs: Leyla və ya Murad">
+                <button onclick="adiDəyiş()" class="btn">Adını Yaz!</button>
+
+                <p id="userAdInput">Salam, Balaca Kodçu! 👋</p>
+            </div>
+        </section>
+        <section id="card-2" class="box mt-3">
+            <h2>2️⃣ Səhifənin Rəngini Dəyiş!</h2>
+            <p>CSS rəngləri ilə səhifəmizi istədiyimiz rəngə boyayaq:</p>
+            <div class="row btns">
+                <button class="btn1" onclick="red()">🔴 Qırmızı</button>
+                <button class="btn2" onclick="green()">🟢 Yaşıl</button>
+                <button class="btn3" onclick="yellow()">🟡 Sarı</button>
+                <button class="btn4" onclick="blue()">🔵 Mavi</button>
+            </div>
+        </section>
+        <section id="card-3" class="box">
+            <h2>3️⃣ <span>Sehrli Emoji Düyməsi</span></h2>
+            <p>JavaScript ilə düyməyə hər kliklədikdə emoji dəyişəcək:</p>
+            🐱
+            <button class="btn5" onclick="">Emojini Dəyiş!</button> 
+
+        </section>
+    </main>
+    <script src="scripe.js">
+        
+    </script>
+
+</body>
+
+</html>

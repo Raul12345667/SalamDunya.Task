@@ -1,0 +1,75 @@
+body{
+   
+    text-align: center;
+}
+header p{
+    opacity: 0.6;
+}
+header span{
+    color: #df3244;
+}
+span{
+    color: #0072f9;
+}
+#card-1{
+    background-color: #fff;
+    margin-top: 50px; 
+    margin-bottom: 30px;
+}
+#card-1 p{
+    opacity: 0.6;  
+}
+.btn{
+    background-color: #dc3444;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+.box {
+    border: 4px dashed #df3244; 
+    border-radius: 20px;
+}
+.btn1{
+    background-color: #dc3444;
+    color: #fff;
+    border-radius: 15px;
+    border: none;
+}
+#card-2{
+    background-color: #fff;
+}
+.btn2{
+    background-color: #188655;
+    color: #fff;
+    border-radius: 15px;
+    border: none;
+}
+.btn3{
+    background-color: #fec109;
+    border-radius: 15px;
+    border: none;
+}
+.btn4{
+    background-color: #11caf0;
+    color: #fff;
+    border-radius: 15px;
+    border: none;
+}
+.btns{
+    margin-right: 10px;
+}
+#card-3{
+    background-color: #fff;
+    margin-top: 30px; 
+}
+#card-3 .span{ 
+    background-color: #1dc9f4;
+}
+.btn5{
+    background-color: #1dc9f4;
+    color: #fff;
+    border-radius: 25px;
+    border: none;
+}
